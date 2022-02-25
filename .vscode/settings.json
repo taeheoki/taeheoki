@@ -1,6 +1,8 @@
 {
 	"files.associations": {
 		"stdlib.h": "c",
-		"dirent.h": "c"
+		"dirent.h": "c",
+		"term.h": "c",
+		"termcap.h": "c"
 	}
 }
