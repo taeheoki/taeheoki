@@ -66,6 +66,13 @@ bool	get_position(int *col, int *row)
 	return (true);
 }
 
+int		putchar(int c)
+{
+	if (write(STDOUT_FILENO, &c, 1) == ERROR)
+		return (0);
+	return (1);
+}
+
 bool	cur_left(int *col, int *row)
 {
 	if (*col)
@@ -123,13 +130,6 @@ bool	cur_backspace(int *col, int *row)
 	return (true);
 }
 
-int		putchar(int c)
-{
-	if (write(STDOUT_FILENO, &c, 1) == ERROR)
-		return (0);
-	return (1);
-}
-
 bool	key_handle(int ch,  int *col, int *row)
 {
 	if (ch == KEY_LEFT)
@@ -165,12 +165,6 @@ bool	key_handle(int ch,  int *col, int *row)
 	}
 	return (true);
 }
-
-// int		putchar(int c)
-// {
-// 	if (write(STDOUT_FILENO, &c, 1) == ERROR)
-// 		return (0);
-// }
 
 bool	read_char(void)
 {
