@@ -26,7 +26,7 @@ int	main(void)
 	signal(SIGINT, handler);
 	while (true)
 	{
-		line = readline ("input> ");
+		line = readline("input> ");
 		if (line)
 		{
 			ret = strcmp(line, "bye");
