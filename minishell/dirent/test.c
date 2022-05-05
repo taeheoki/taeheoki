@@ -22,7 +22,7 @@ void	classify(struct dirent *ent)
 		printf("Unknown Type File\n");
 }
 
-int main(void)
+int		main(void)
 {
 	int				temp;
 	DIR				*dirp;
