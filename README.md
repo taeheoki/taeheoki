@@ -1,4 +1,4 @@
-### Hi, I'm Taeheoki Kim 
+### Hi, I'm Taeheo Kim 
    
  🔦 
    
