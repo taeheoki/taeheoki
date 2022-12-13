@@ -8,8 +8,10 @@
     
 * * *  
 
+![taeheoki's GitHub stats](<https://github-readme-stats.vercel.app/api?username=taeheoki>)
+
 <span>
- 
+   
    **42 SEOUL stats**    
  [![taeheoki's 42 stats](https://badge42.vercel.app/api/v2/cl53i14gx002509me6df1wxvr/stats?cursusId=21&coalitionId=86)](https://github.com/JaeSeoKim/badge42)
 
