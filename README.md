@@ -1,7 +1,7 @@
 <div align=center>
 </div>
 
-### Hi, I'm Taeheon Kim 
+## 소통을 통해 성장하는 개발자, 김태헌입니다.
     
 * * *  
 
